@@ -1,5 +1,5 @@
 # A Redux Study Demo
-### Usage
+## Usage
 ```
   npm install
   npm start

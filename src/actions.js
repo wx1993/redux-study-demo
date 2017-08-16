@@ -5,20 +5,6 @@ export const FETCH_SUCCESS = 'WEATHER_FETCH_SUCCESS'
 export const FETCH_FAILURE = 'WEATHER_FETCH_FAILURE'
 
 // 这里的 action 在组件中被触发， this.props.dispatch(add())
-export const getName = (name) => (
-	{
-		type: GET_NAME,
-		data: name
-	}
-)
-
-export const getAge = (age) => (
-	{
-		type: GET_AGE,
-		data: age
-	}
-)
-
 export const fetchWeatherStarted = () => {
   return {
     type: FETCH_STARTED
